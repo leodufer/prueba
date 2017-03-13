@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>Prueba</title>
+		<title>Oscar Duarte</title>
 		<meta charset="utf-8">
+		<style type="text/css">
+			form{
+				font-size: 14px;
+				font-family: sans-serif;
+			}
+			input{
+				display: block;
+				width: 80%;
+				padding: 5px;
+				margin: 5px;
+				height: 50px;
+			}
+			input[type="submit"]{
+				width: 25%;
+			}
+
+		</style>
 	</head>
-	<body>
+	<body >
 
-		<h1>Encabezado de Párrafo</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<hr>
-		<img src="img/foto.jpg">
-
-		<ul>
-			<li>Elemento</li>
-			<li>Elemento</li>
-			<li>Elemento</li>
-			<li>Elemento</li>
-		</ul>
-
-		<ol>
-			<li>Elemento</li>
-			<li>Elemento</li>
-			<li>Elemento</li>
-			<li>Elemento</li>
-		</ol>
-		
+		<h1>Formulario</h1>
+		<form method="post">
+			<label>Nombre</label>
+			<input type="text" name="nombre" required placeholder="Complete su Nombre y Apellido">
+			<input type="submit" value="Guardar">
+		</form>
 	</body>
 </html>
